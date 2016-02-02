@@ -1,0 +1,64 @@
+{
+  "card_1": {
+    "sprite": 10,
+    "attack":2,
+    "defense":2,
+    "name": "Goblin"
+  },
+  "card_2": {
+    "sprite": 20,
+    "attack":3,
+    "defense":1,
+    "name": "Fire Wisp"
+  },
+  "card_3": {
+    "sprite": 30,
+    "attack":2,
+    "defense":2,
+    "name": "Imp"
+  },
+  "card_4": {
+    "sprite": 40,
+    "attack":3,
+    "defense":2,
+    "name": "Devil"
+  },
+  "card_5": {
+    "sprite": 50,
+    "attack":4,
+    "defense":1,
+    "name": "Skeleton"
+  },
+  "card_6": {
+    "sprite": 21,
+    "attack":4,
+    "defense":2,
+    "name": "Ice Wisp"
+  },
+  
+  "card_7": {
+    "sprite": 11,
+    "attack":4,
+    "defense":2,
+    "name": "Goblin Warrior"
+  },
+  "card_8": {
+    "sprite": 31,
+    "attack":4,
+    "defense":2,
+    "name": "Imp Warrior"
+  },
+  "card_9": {
+    "sprite": 41,
+    "attack":5,
+    "defense":2,
+    "name": "Devil Warrior"
+  },
+  "card_10": {
+    "sprite": 51,
+    "attack":5,
+    "defense":4,
+    "name": "Skeleton Warrior"
+  }  
+  
+}

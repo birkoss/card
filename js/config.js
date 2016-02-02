@@ -1,0 +1,1 @@
+var CONFIG = {'version': 0.1};

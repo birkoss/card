@@ -1,0 +1,164 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+   background-color: #575652;
+    background-image: url("images/noise.png");
+    color: #555555;
+    font-family: 'PT Sans',Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+#header {
+    position: relative;
+    background-color: #ffffff;
+}
+
+#header #panel {
+  width: 930px;
+  margin: 0 auto;
+}
+
+#header div#logo {
+  float: left;
+  margin-top: 20px;
+}
+
+div#navigation {
+  margin: 20px 0;
+  float: right;
+}
+
+ul#socials {
+  margin-left: 14px;
+  float: left;
+}
+
+ul#socials li {
+  float: left;
+  display: block;
+}
+
+ul#socials li span {
+  display: none;
+}
+
+ul#socials li a {
+  display: block;
+  width: 19px;
+  height: 19px;
+  
+  background-image: url('../medias/socials.png');
+  background-position: 0;
+  margin-left: 6px;
+}
+
+ul#socials li a.twitter {
+  background-position: 38px;
+}
+
+ul#socials li a.rss {
+  background-position: 19px;
+}
+
+ul#menu {
+  float: left;
+}
+
+ul#menu li {
+    border-right: 1px dotted #DDDDDD;
+    display: inline;
+    margin: 0;
+    padding: 0 3px 0 0;
+    width: auto;
+}
+ul #menu, ul#menu * {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu li a {
+  color: #575652;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 0;
+  padding: 0 14px;
+  text-shadow: 1px 1px 0 #FFFFFF;
+  text-transform: uppercase;
+}
+
+div#page {
+  width: 930px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+div#page h1 {
+  border-bottom: 1px solid #E6E6E6;
+  box-shadow: 0 4px 0 #F4F4F4;
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0 0 5px;
+  text-transform: uppercase;
+
+  font-family: "PT Sans",Verdana,Geneva,sans-serif;
+}
+
+div#page p {
+  padding-bottom: 20px;
+}
+
+div#side {
+  float: right;
+  width: 200px;
+  padding-left: 20px;
+}
+
+div.form {
+  padding-bottom: 20px;
+}
+
+table.form {
+    background-color: #D94141;
+}
+
+table.form td, table.form th {
+  background-color: #ffffff;
+  padding: 10px;
+  vertical-align: top;
+}
+
+input.button {
+  background-color: #D94141;
+  color: #ffffff;
+}
+
+p.error {
+  color: #D94141;
+  font-weight: bold;
+}
